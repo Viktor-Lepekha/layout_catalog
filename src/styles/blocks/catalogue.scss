@@ -1,8 +1,8 @@
 .catalogue {
   width: 944px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
 
   &__card {
     margin-top: 50px;
